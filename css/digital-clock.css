@@ -1,0 +1,59 @@
+.digital-clock {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #060a1f;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.digital-clock > .title {
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.digital-clock > .wrapperCard {
+    display: flex;
+}
+
+.digital-clock > .wrapperCard .card {
+    margin-right: 10px;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #0004);
+}
+
+.digital-clock > .wrapperCard .timer {
+    display: block;
+    font-size: 4em;
+    background-color: #2196f3;
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+}
+
+.digital-clock > .wrapperCard .text {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: #127fd6;
+    text-align: center;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0.2em;
+    border-top: 1px solid #000;
+}
+
+.digital-clock > .wrapperCard .card:last-child .timer {
+    background-color: #ff006a;
+}
+
+.digital-clock > .wrapperCard .card:last-child .text {
+    background-color: #ec0062;
+}
