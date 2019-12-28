@@ -11,7 +11,7 @@ Some effects built with css and javaScript
 
 _____
 ## The time is Now
-Created a digital clock.
+Digital watch with reflection. Only google Chrome.
 
 <img src="image/digital-clock.png">
 
@@ -22,7 +22,7 @@ ___
 ___
 ## Isometric card
 
-Created an isometric card with pure CSS animation and effects.
+Isometric card with pure CSS animation and effects.
 
 <img src="image/cards.png">
 
